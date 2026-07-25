@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fepod-1
+  labels:
+    app: frontend
+spec:
+  containers:
+    - name: cont
+      image: imjk04/e-com:electronics
+      ports:
+        - containerPort: 5000
