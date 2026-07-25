@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-3
+  name: pod-4
   labels:
-    app: backend
+    app: db
 spec:
   containers:
     - name: cont
