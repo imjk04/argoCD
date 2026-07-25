@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-5
+  labels:
+    app: database
+spec:
+  containers:
+    - name: cont1
+      image: imjk04/e-com:electronics
+      ports:
+        - containerPort: 5000
